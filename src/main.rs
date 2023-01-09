@@ -11,9 +11,11 @@ fn main() {
     //     println!("{}", top);
     // }
 
-    let v = vec!['a', 'b', 'c'];
+    // let v = vec!['a', 'b', 'c'];
 
-    for (index, value) in v.iter().enumerate() {
-        println!("{} is at index {}", value, index);
-    }
+    // for (index, value) in v.iter().enumerate() {
+    //     println!("{} is at index {}", value, index);
+    // }
+
+    let (a, b, c, ..) = (1, 2, 3, 4, 5, 6);
 }
